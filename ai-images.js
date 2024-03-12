@@ -18,7 +18,7 @@ function updateImages(data){
     `;
 }
 
-const OPENAI_API_KEY = #YourAPIKey
+const OPENAI_API_KEY = //YourAPIKey
 async function getAIImages(input){
     try{
         const response = await fetch("https://api.openai.com/v1/images/generations",{
