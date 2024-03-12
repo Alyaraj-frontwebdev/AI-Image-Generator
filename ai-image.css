@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url('https://cdn.pixabay.com/photo/2023/02/13/16/14/ai-generated-7787717_1280.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header .content{
+    backdrop-filter: brightness(40%);
+    padding: 20px 20px ;
+    border-radius: 12px;
+}
+header .content h1{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+}
+header .content p{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-top: 12px;
+}
+header .content .form{
+    background-color: #fff;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+header .content .form #inp_box{
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    max-width: 500px;
+    width: 100%;
+    border:none;
+    outline: none;
+}
+header .content .form .generate_btn{
+    height: 50px;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(16, 16, 173);
+    border: rgb(16, 16, 173);
+    padding: 10px 10px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 22px;
+}
+main .img_card{
+    height: 350px;
+    width: 280px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    position: relative;
+}
+
+main .img_card .img{
+    height: inherit;
+    width: inherit;
+    box-shadow: 0 0 40px 10px #000;
+}
+main .img_card a{
+    position: absolute;
+    height: 34px;
+    width: 34px;
+    border-radius: 50%;
+    bottom: 12px;
+    right: 12px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .img_card a .image{
+    height: 22px;
+    width: 22px;
+}
